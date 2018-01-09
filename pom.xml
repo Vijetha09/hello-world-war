@@ -25,5 +25,16 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+  <distributionManagement>
+    <repository>
+      <id>releases</id>
+      <url>http://34.238.44.154:8081/nexus/content/repositories/nexusrepo//</url>
+    </repository>
+    <snapshotRepository>
+      <id>snapshots</id>
+      <url>http://34.238.44.154:8081/nexus/content/repositories/snapshots//</url>
+    </snapshotRepository>
+  </distributionManagement>
 
 </project>
