@@ -28,12 +28,12 @@
 	
   <distributionManagement>
     <repository>
-      <id>nexusrepo</id>
-      <url>http://34.238.44.154:8081/nexus/content/repositories/nexusrepo//</url>
+      <id>releases</id>
+      <url>http://34.238.44.154:8081/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
-      <url>http://34.238.44.154:8081/nexus/content/repositories/snapshots//</url>
+      <url>http://34.238.44.154:8081/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
